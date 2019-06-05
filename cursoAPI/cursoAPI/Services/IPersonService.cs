@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace cursoAPI.Services
 {
-    interface IPersonService
+    public interface IPersonService
     {
         Person Create(Person person);
         Person FindById(int personId);
